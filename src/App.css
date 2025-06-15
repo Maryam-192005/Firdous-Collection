@@ -1,0 +1,22 @@
+.App {
+  background-image: url("Bg.jpg.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: pink;
+  background-color: rgba(0, 0, 0, 0.5); /* optional dark overlay */
+  font-size: larger;
+  
+}
+

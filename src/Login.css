@@ -1,0 +1,77 @@
+.login-bg {
+  background-image: url('./images/bg.jpg.jpeg'); /* Make sure this path exists */
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.login-card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  border-radius: 20px;
+  color: white;
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  transition: all 0.3s ease-in-out;
+}
+
+.input-field {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.input-field::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.custom-btn {
+  background-color: #212529;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #343a40;
+}
+
+.fancy-heading {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
+
+/* 🎯 Responsive Adjustments */
+@media (max-width: 768px) {
+  .login-card {
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .fancy-heading {
+    font-size: 1.5rem;
+  }
+
+  .login-bg {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .login-card {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .custom-btn {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .fancy-heading {
+    font-size: 1.3rem;
+  }
+}

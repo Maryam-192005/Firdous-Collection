@@ -1,0 +1,19 @@
+.products-bg {
+  background-color: #f7f7f7;
+  min-height: 100vh;
+}
+
+.product-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.fancy-heading {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+}
